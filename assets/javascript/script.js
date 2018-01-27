@@ -31,7 +31,7 @@ $("#addPlayer").on("click", function(event) {
 
 function getGifs() {
     var player = $(this).attr("data-name");
-    var queryURL = "http://api.giphy.com/v1/gifs/search?q=" + player + "&api_key=" + gifApikey + "&limit=10&rating=g";  
+    var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + player + "&api_key=" + gifApikey + "&limit=10&rating=g";  
     $.ajax({
         url: queryURL,
         method: "GET"
