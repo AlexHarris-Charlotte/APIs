@@ -21,3 +21,7 @@ button {
 button:hover {
     background-color: rgb(18, 134, 155);
 }
+
+.inline {
+    display: inline;
+}
